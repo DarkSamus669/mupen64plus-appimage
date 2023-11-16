@@ -11,6 +11,6 @@ tar -xf mupen64plus.tar.gz
 
 cd mupen64plus-bundle-src-2.5/source/mupen64plus-core/projects/unix
 
-make -j`nproc` all
+./m64p_build.sh -j`nproc`
 
-make install PREFIX=AppDir/usr
+./m64p_install.sh PREFIX=AppDir/usr
