@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Icon=mupen64plus
+Exec=mupen64plus %f
+Terminal=false
+Type=Application
+Name=Mupen64Plus
+GenericName=N64 Emulator
+Comment=Nintendo 64 Emulator
+Categories=Game;Emulator;
+Keywords=emulator;Nintendo;advance;n64;Nintendo 64;
