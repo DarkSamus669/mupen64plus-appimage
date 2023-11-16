@@ -31,7 +31,7 @@ jobs:
 
       # Install deps
       - name: Install deps
-        run: sudo apt-get install -y libfuse2 libsdl2-dev zlib1g-dev libfreetype2-dev libpng-dev 
+        run: sudo apt-get install -y libfuse2 libsdl2-dev zlib1g-dev libfreetype-dev libpng-dev 
 
       # Build sameboy
       - name: Building mupen64plus...
