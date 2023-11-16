@@ -9,7 +9,7 @@ tar -xf mupen64plus.tar.gz
 
 # Build mupen64plus
 
-cd mupen64plus-bundle-src-2.5/source/mupen64plus-core/projects/unix
+cd mupen64plus-bundle-src-2.5
 
 ./m64p_build.sh -j`nproc`
 
